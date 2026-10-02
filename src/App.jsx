@@ -5,21 +5,23 @@ import RandomColor from "./components/random-color";
 import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import { menus } from "./components/tree-view/data";
+import Weather from "./components/weather-app/weather";
 // import "./index.css";
 
 function App() {
   return (
     <>
-      <Accordion />
+      {/* <Accordion />
       <RandomColor />
-      <StarRating numOfStars={10} />
+      <StarRating numOfStars={10} /> */}
       {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"1"}
         limit={"10"}
       />
       <LoadMoreImage /> */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+      <Weather />
     </>
   );
 }
