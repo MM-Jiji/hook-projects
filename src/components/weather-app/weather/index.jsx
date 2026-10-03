@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import SearchBar from "../search";
-import "../styles.css";
+import "../WeatherStyles.module.css";
 
 export default function Weather() {
   const [search, setSearch] = useState("");

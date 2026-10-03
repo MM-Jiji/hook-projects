@@ -1,4 +1,4 @@
-import "../styles.css";
+import "../WeatherStyles.module.css";
 
 export default function SearchBar({ search, setSearch, handleSearch }) {
   return (
