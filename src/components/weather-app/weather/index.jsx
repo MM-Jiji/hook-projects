@@ -48,7 +48,7 @@ export default function Weather() {
   console.log(weatherData);
 
   return (
-    <div className="container">
+    <div className="w-container">
       <SearchBar
         search={search}
         setSearch={setSearch}
